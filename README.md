@@ -11,9 +11,9 @@ By default, Spring Boot will configure an H2 database for us. H2 is a  database 
 
 The h2 console can be accessed at the following location http://127.0.0.1:8080/h2-console with the following credentials
 
-jbdc url = jdbc:h2:mem:userdb
-username = sa
-password =
+1. jbdc url = jdbc:h2:mem:userdb
+2. username = sa
+3. password =
 
 
 ##Postman scripts
