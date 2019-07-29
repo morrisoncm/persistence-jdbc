@@ -1,4 +1,4 @@
-package com.demo.jdbc.dao;
+package com.demo.jdbc.repository;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,9 +12,9 @@ import com.demo.jdbc.domain.DemoUserRowMapper;
 import com.demo.jdbc.domain.FieldType;
 
 @Repository
-public class DemoUserDao {
+public class DemoUserRepository {
 
-	private static final Logger LOG = LoggerFactory.getLogger(DemoUserDao.class);
+	private static final Logger LOG = LoggerFactory.getLogger(DemoUserRepository.class);
 	@Autowired
 	private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
