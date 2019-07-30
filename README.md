@@ -1,6 +1,6 @@
 # springbootjdbc
-Sample Spring Boot JDBC API with Junit 5. The project is based on the following 
-<https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.html> 
+Sample Spring Boot JDBC API with Junit 5. The project is based on the following  
+<https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.html>  
 <https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/MapSqlParameterSource.html> 
 
 ## Running the application

@@ -42,7 +42,7 @@ public class DemoUserRepository {
 	}
 
 	public void registerUser(DemoUser demoUser) {
-		String query = "INSERT INTO demo_users (username, password, firstname, lastname, email) VALUES (:username, :password, :firstname, :lastname, :password)";
+		String query = "INSERT INTO demo_users (username, password, firstname, lastname, email) VALUES (:username, :password, :firstname, :lastname, :email)";
 		MapSqlParameterSource mapSqlParameterSource = new MapSqlParameterSource();
 		mapSqlParameterSource.addValue(FieldType.USERNAME.getValue(), demoUser.getUsername());
 		mapSqlParameterSource.addValue(FieldType.PASSWORD.getValue(), demoUser.getPassword());
