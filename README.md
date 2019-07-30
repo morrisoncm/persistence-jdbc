@@ -4,7 +4,7 @@ Sample Spring Boot JDBC API with Junit 5. The project is based on the following
 <https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/MapSqlParameterSource.html> 
 
 ## Running the application
-Simply clone or download the project. The main starting point for the application is  <https://github.com/morrisoncm/springbootjdbc/blob/master/src/main/java/com/demo/jdbc/Application.java.
+Simply clone or download the project. The main starting point for the application is  <https://github.com/morrisoncm/springbootjdbc/blob/master/src/main/java/com/demo/jdbc/Application.java>.
 
 ## Postman Scripts
 To test using Postman the scripts are in the following location <https://github.com/morrisoncm/springbootjdbc/tree/master/postman>.
