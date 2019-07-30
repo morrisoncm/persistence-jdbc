@@ -12,4 +12,4 @@ password =
 
 
 #Postman scripts
-To test using Postman the scripts are in the following location postman/demo - users.postman_collection.json. Simply import and start the application using the com.demo.jdbc.Application.java
+To test using Postman the scripts are in the following location postman/demo - users.postman_collection.json. Simply clone or download the project. The main starting point for the application is com.demo.jdbc.Application.java
