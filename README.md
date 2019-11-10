@@ -1,14 +1,14 @@
-## Running the application
-To run the application from the command line chang to the project root directory and simply run gradle bootRun.
-To run the application inside Eclipse.
-Simply clone or download the project. 
-The main starting point for the application is  <https://github.com/morrisoncm/springbootjdbc/blob/master/src/main/java/com/demo/jdbc/Application.java>.
-Right click the Application.java  and select Run As ->Java Application.
-
 # springbootjdbc
 Sample Spring Boot JDBC API with Junit 5. The project is based on the following  
 <https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.html>  
 <https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/MapSqlParameterSource.html> 
+
+## Running the application
+To run the application from the command line chang to the project root directory and simply type gradle bootRun.
+To run the application inside Eclipse.
+Simply clone or download the project. 
+The main starting point for the application is  <https://github.com/morrisoncm/springbootjdbc/blob/master/src/main/java/com/demo/jdbc/Application.java>.
+Right click the Application.java  and select Run As ->Java Application.
 
 ## Postman Scripts
 To test using Postman the scripts are in the following location <https://github.com/morrisoncm/springbootjdbc/tree/master/postman>.
