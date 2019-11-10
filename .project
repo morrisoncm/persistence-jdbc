@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>springbootjdbc</name>
-	<comment>Project springbootjdbc created by Buildship.</comment>
+	<name>persistence-jdbc</name>
+	<comment>Project persistence-jdbc created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
