@@ -1,14 +1,14 @@
 package com.demo.jdbc.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
 import com.demo.jdbc.domain.DemoUser;
-import com.demo.jdbc.exception.DemoUserFoundException;
-import com.demo.jdbc.exception.DemoUserNotFoundException;
 import com.demo.jdbc.repository.DemoUserRepository;
 import com.demo.jdbc.service.DemoUserService;
+import org.springframework.web.server.ResponseStatusException;
 
 @Service
 public class DemoUserServiceImpl implements DemoUserService {
@@ -20,7 +20,8 @@ public class DemoUserServiceImpl implements DemoUserService {
 	public DemoUser getUser(String username) {
 		DemoUser demoUser = demoUserRepository.getUser(username);
 		if (ObjectUtils.isEmpty(demoUser)) {
-			throw new DemoUserNotFoundException();
+			throw new ResponseStatusException(
+					HttpStatus.NOT_FOUND, "Demo User does not exist!");
 		}
 		return demoUser;
 	}
@@ -36,7 +37,8 @@ public class DemoUserServiceImpl implements DemoUserService {
 	@Override
 	public void registerUser(DemoUser demoUser) {
 		if (!ObjectUtils.isEmpty(demoUserRepository.getUser(demoUser.getUsername()))) {
-			throw new DemoUserFoundException();
+			throw new ResponseStatusException(
+					HttpStatus.FORBIDDEN, "Demo User already exists!");
 		}
 		demoUserRepository.registerUser(demoUser);
 	}
