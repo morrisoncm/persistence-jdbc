@@ -10,27 +10,27 @@ import com.demo.jdbc.service.DemoUserService;
 @RequestMapping("/users")
 public class DemoUserController {
 
-	@Autowired
-	private DemoUserService demoUserService;
+    @Autowired
+    private DemoUserService demoUserService;
 
-	@GetMapping("/{username}")
-	public DemoUser getUser(@PathVariable String username) {
-		return demoUserService.getUser(username);
-	}
+    @GetMapping("/{username}")
+    public DemoUser getUser(@PathVariable String username) {
+        return demoUserService.getUser(username);
+    }
 
-	@PostMapping
-	public void registerUser(@RequestBody DemoUser demoUser) {
-		demoUserService.registerUser(demoUser);
-	}
+    @PostMapping
+    public void registerUser(@RequestBody DemoUser demoUser) {
+        demoUserService.registerUser(demoUser);
+    }
 
-	@PutMapping(path = "/{username}")
-	public void updateUserProfile(@RequestBody DemoUser demoUser, @PathVariable String username) {
-		demoUser.setUsername(username);
-		demoUserService.updateUser(demoUser);
-	}
+    @PutMapping(path = "/{username}")
+    public void updateUserProfile(@RequestBody DemoUser demoUser, @PathVariable String username) {
+        demoUser.setUsername(username);
+        demoUserService.updateUser(demoUser);
+    }
 
-	@DeleteMapping(path = "/{username}")
-	public void deleteUser(@PathVariable String username) {
-		demoUserService.deleteUser(username);
-	}
+    @DeleteMapping(path = "/{username}")
+    public void deleteUser(@PathVariable String username) {
+        demoUserService.deleteUser(username);
+    }
 }
