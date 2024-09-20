@@ -1,34 +1,18 @@
-# persistence-jdbc
+## persistence-jdbc
+### QuickStart Guide
+It is a quick guide to get you up and running. It covers the following topics. Before beginning please complete [Setting Up Your Mac](https://github.com/morrisoncm/documentation/wiki/Setting-Up-Your-Mac) or [Setting Up Your Windows](https://github.com/morrisoncm/documentation/wiki/Setting-Up-Your-Windows). The [repositories](https://github.com/morrisoncm?tab=repositories) below can be viewed and cloned. For a detailed explanation please see the [Wiki](https://github.com/morrisoncm/documentation/wiki).
 
-Sample Spring Boot JDBC API with Junit 5. The project is based on the following  
-<https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.html>  
-<https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/MapSqlParameterSource.html>
+### Running the application
 
-## Workspace setup
+- Clone or download the project
+- To build the application from Terminal / Command Prompt
+- Change directory to the project root directory and type `gradle build`
+- To run the application and type `gradle bootRun`
 
-Download and install java <https://jdk.java.net/>  
-Setting JAVA_HOME  <https://docs.oracle.com/cd/E19182-01/821-0917/inst_jdk_javahome_t/index.html>  
-Download Eclipse <https://www.eclipse.org/downloads/packages/>  
-Download and Install Gradle <https://docs.gradle.org/current/userguide/installation.html>
+### Official Documentation
 
-## Running the application
-
-Clone or download the project  
-To run the application from Terminal / Command Prompt   
-Change directory to the project root directory and type gradle bootRun  
-To run the application inside Eclipse  
-The starting point is Application.java  
-Right click the Application.java and select Run As ->Java Application
-
-## Testing the application
-
-Download and install postman <https://www.getpostman.com/downloads/>  
-The test scripts are under the project root directory in the postman folder
-
-## Database - h2
-
-By default, Spring Boot will configure an H2 database for us  
-H2 is a database to develop against because it has an Oracle compatibility mode  
-The application.properties initializes the datasource, data and schema  
-The h2 console can be accessed at the following location http://127.0.0.1:8080/h2-console  
-To sign onto the console the credentials are in the following directory /src/main/resources/application.properties  
+- [OpenJDK](https://openjdk.org/install/)
+- [Spring Topical Guides](https://spring.io/guides#topical-guides)
+- [Gradle](https://gradle.org/install/)
+- [Gradle Guildes](https://gradle.org/guides/)
+- [PostmanAPI](https://gradle.org/install/)
