@@ -27,6 +27,7 @@ It is a quick guide to get you up and running. It covers the following topics. B
 
 ### Official Documentation
 
+- [GitHub](https://docs.github.com/en/get-started)
 - [OpenJDK](https://openjdk.org/install/)
 - [Spring Topical Guides](https://spring.io/guides#topical-guides)
 - [Gradle](https://gradle.org/install/)
