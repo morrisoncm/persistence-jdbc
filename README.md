@@ -1,7 +1,7 @@
 ## persistence-jdbc
 
 ### QuickStart Guide
-It is a quick guide to get you up and running. It covers the following topics. Before beginning please complete [Setting Up Your Mac](https://github.com/morrisoncm/documentation/wiki/Setting-Up-Your-Mac) or [Setting Up Your Windows](https://github.com/morrisoncm/documentation/wiki/Setting-Up-Your-Windows). The [repositories](https://github.com/morrisoncm?tab=repositories) below can be viewed and cloned. For a detailed explanation please see the [Wiki](https://github.com/morrisoncm/documentation/wiki).
+Welcome to the documentation, it is a quick guide to get you up and running. Before beginning please complete [Setting Up Your Windows](https://github.com/morrisoncm/documentation/wiki/2.-Setting-Up-Your-Windows). The [repositories](https://github.com/morrisoncm/documentation/wiki/1.-Home#repositories) below can be viewed and cloned from [morrisoncm](https://github.com/morrisoncm?tab=repositories).
 
 ### Running the application
 
