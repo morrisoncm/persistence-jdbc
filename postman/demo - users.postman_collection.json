@@ -1,151 +1,152 @@
 {
-  "info": {
-    "_postman_id": "92fc0cf4-683b-44b9-b483-fe6cc66d12bd",
-    "name": "demo - users",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-  },
-  "item": [
-    {
-      "name": "Get User",
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "127.0.0.1:8080/users/adminuser",
-          "host": [
-            "127",
-            "0",
-            "0",
-            "1"
-          ],
-          "port": "8080",
-          "path": [
-            "users",
-            "adminuser"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "Get User JohnDoe",
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "127.0.0.1:8080/users/johndoe",
-          "host": [
-            "127",
-            "0",
-            "0",
-            "1"
-          ],
-          "port": "8080",
-          "path": [
-            "users",
-            "johndoe"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "Post User",
-      "request": {
-        "method": "POST",
-        "header": [
-          {
-            "key": "Content-Type",
-            "name": "Content-Type",
-            "value": "application/json",
-            "type": "text"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n \"username\": \"johndoe\",\n \"firstname\":  \"John\",\n \"lastname\": \"Doe\",\n \"password\": \"password\",\n \"email\": \"johndoe@email.com\"\n}"
-        },
-        "url": {
-          "raw": "127.0.0.1:8080/users",
-          "host": [
-            "127",
-            "0",
-            "0",
-            "1"
-          ],
-          "port": "8080",
-          "path": [
-            "users"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "Delete User",
-      "request": {
-        "method": "DELETE",
-        "header": [
-          {
-            "key": "Content-Type",
-            "name": "Content-Type",
-            "type": "text",
-            "value": "application/json"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": ""
-        },
-        "url": {
-          "raw": "127.0.0.1:8080/users/johndoe",
-          "host": [
-            "127",
-            "0",
-            "0",
-            "1"
-          ],
-          "port": "8080",
-          "path": [
-            "users",
-            "johndoe"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "Update User",
-      "request": {
-        "method": "PUT",
-        "header": [
-          {
-            "key": "Content-Type",
-            "name": "Content-Type",
-            "type": "text",
-            "value": "application/json"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n \"username\": \"johndoe\",\n \"firstname\":  \"Jim\",\n \"lastname\": \"Doe\",\n \"password\": \"password\",\n \"email\": \"jimdoe@email.com\"\n}"
-        },
-        "url": {
-          "raw": "127.0.0.1:8080/users/johndoe",
-          "host": [
-            "127",
-            "0",
-            "0",
-            "1"
-          ],
-          "port": "8080",
-          "path": [
-            "users",
-            "johndoe"
-          ]
-        }
-      },
-      "response": []
-    }
-  ]
+	"info": {
+		"_postman_id": "92fc0cf4-683b-44b9-b483-fe6cc66d12bd",
+		"name": "demo - users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1445992"
+	},
+	"item": [
+		{
+			"name": "Get User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/users/adminuser",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"adminuser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User JohnDoe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/users/johndoe",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"johndoe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"name": "Content-Type",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"username\": \"johndoe\",\n \"firstname\":  \"John\",\n \"lastname\": \"Doe\",\n \"password\": \"password\",\n \"email\": \"johndoe@email.com\"\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/users",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"name": "Content-Type",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/users/johndoe",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"johndoe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"name": "Content-Type",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"username\": \"johndoe\",\n \"firstname\":  \"Jim\",\n \"lastname\": \"Doe\",\n \"password\": \"password\",\n \"email\": \"jimdoe@email.com\"\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/users/johndoe",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"johndoe"
+					]
+				}
+			},
+			"response": []
+		}
+	]
 }
