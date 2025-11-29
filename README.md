@@ -9,7 +9,9 @@ Welcome to the documentation, it is a quick guide to get you up and running. Bef
 - To build the application from Terminal / Command Prompt
 - Change directory to the project root directory and type `gradle build` and press enter
 - To run the application and type `gradle bootRun` and press enter
-- To run the application and output console logs to a file type `gradle bootRun --console=plain --no-daemon`### Testing the application
+- To run the application and output console logs to a file type `gradle bootRun --console=plain --no-daemon`
+
+### Testing the application
 
 - To run the tests alone in the root directory type `gradle test` and press enter
 - Download and install postman <https://www.getpostman.com/downloads/>
