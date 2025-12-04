@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "92fc0cf4-683b-44b9-b483-fe6cc66d12bd",
-		"name": "demo - users",
+		"_postman_id": "4c18feb3-3d41-41aa-8f58-4dbbe204724f",
+		"name": "persistence-jdbc",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "1445992"
 	},
@@ -58,7 +58,6 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json",
-						"name": "Content-Type",
 						"type": "text"
 					}
 				],
@@ -90,7 +89,6 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json",
-						"name": "Content-Type",
 						"type": "text"
 					}
 				],
@@ -123,7 +121,6 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json",
-						"name": "Content-Type",
 						"type": "text"
 					}
 				],
