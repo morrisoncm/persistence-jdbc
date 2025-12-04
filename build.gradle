@@ -7,16 +7,34 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    // Use Java 23 toolchain
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(23)
+    }
+}
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    // JPA + JDBC + Web
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
+    // In-memory DB for dev/testing
     runtimeOnly 'com.h2database:h2'
+
+    // Example: JDBC driver for a real DB (uncomment & pick one)
+    // runtimeOnly 'org.postgresql:postgresql'
+    // runtimeOnly 'mysql:mysql-connector-j'
+    // runtimeOnly 'com.microsoft.sqlserver:mssql-jdbc'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
